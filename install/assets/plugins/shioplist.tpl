@@ -28,7 +28,6 @@ switch($e->name){
         );
 		
 		
-		
-        $e->output(serialize($widgets));
+	$modx->event->output(serialize($widgets));
     break;
 }
